@@ -28,6 +28,11 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: prabhakarsag
   gitBranch: main
+- name: JMSTest
+  gitServerName: SIQAPsur
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: prabhakarsag
+  gitBranch: main
 services:
 - serviceName: project.siqa_2502.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
   packages:
