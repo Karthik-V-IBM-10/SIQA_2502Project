@@ -120,9 +120,9 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: publisher:publisher
+- serviceName: jms2wayssl_publisher:jms2wayssl_publisher
   packages:
-  - name: JMSTest
+  - name: JMS2waySSL
     version: "1.0"
 - serviceName: pub.jms:send
   packages:
